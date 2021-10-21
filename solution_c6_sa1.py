@@ -95,7 +95,7 @@ while True:
   
   # Checking if 'bullet.x' is less than 0 or greater than 400 or 'bullet.y' is less than 0 or greater than 600
   if bullet.y<0 or bullet.x<0 or bullet.y>600 or bullet.x>400:
-      # Assign "ready" to 'bulletState'
+      # Assigning "ready" to 'bulletState'
       bulletState="ready"
       
   # Drawing 'bullet' on 'screen' in 'YELLOW' color    
